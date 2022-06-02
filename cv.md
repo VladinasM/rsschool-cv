@@ -1,4 +1,4 @@
-[rsschool-cv]
+[rsschool-cv](https://VladinasM.github.io/rsschool-cv/cv)
 
 ## **Vlad Mingaleev**
 
