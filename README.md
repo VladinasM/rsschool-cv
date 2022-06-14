@@ -1,1 +1,1 @@
-https://VladinasM.github.io/rsschool-cv/index
+https://VladinasM.github.io/rsschool-cv/cv
