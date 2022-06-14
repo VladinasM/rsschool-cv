@@ -11,8 +11,23 @@
 </head>
 <body>
   <header class="header">
-    <div class="container">
-			<nav class="nav"></nav>
+	<div class="container">
+			<nav class="nav">
+				<ul class="nav__items">
+					<li class="nav__item">
+						<a class="nav__link" href="#hard">Hard skills</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="#code">Code example</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="#educate">Education</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="#lang">Languages</a>
+					</li>
+				</ul>
+			</nav>
 			<div class="header__inner">
 				<img class="my-photo" src="./images/my-avatar.jpg" height="250" alt="Developer`s Photography">
 				<div class="header__info">
@@ -20,7 +35,7 @@
 					<p class="header__text">Front End Developer</p>
 				</div>
 			</div>
-    </div>
+	</div>
   </header>
 	<main class="main">
 		<div class="container">
@@ -38,7 +53,7 @@
 				</div>
 			</section>
 			<div class="dividing-line"></div>
-			<section class="hard-skills">
+			<section class="hard-skills" id="hard">
 				<div class="container">
 					<h2 class="hard-skills__title title">Hard skills</h2>
 					<ul class="hard-skills__items">
@@ -52,30 +67,30 @@
 				</div>
 			</section>
 			<div class="dividing-line"></div>
-			<section class="code-example">
+			<section class="code-example" id="code">
 				<h2 class="code-example__title title">Code Example</h2>
 				<p class="code-example__text">Get the Middle Character</p>
 				<pre class="fgf">
 					<code class="code-example__js">
   function getMiddle(s)
   {
-    if(s.length % 2 === 0){
-      return s.substring(s.length / 2 - 1, s.length / 2 + 1)
-    }
-    else{
-      return s.substring(Math.floor(s.length / 2), Math.floor(s.length / 2) + 1)
-    }
+	if(s.length % 2 === 0){
+	  return s.substring(s.length / 2 - 1, s.length / 2 + 1)
+	}
+	else{
+	  return s.substring(Math.floor(s.length / 2), Math.floor(s.length / 2) + 1)
+	}
   }
 					</code>
 				</pre>
 			</section>
 			<div class="dividing-line"></div>
-			<section class="education">
+			<section class="education" id="educate">
 				<h2 class="education__title title">Education</h2>
 				<div class="education__name">Kazan National Research Technical University named after A. N. Tupolev - KAI (second year, still studying) -“Software engineering”</div>
 			</section>
 			<div class="dividing-line"></div>
-			<section class="languages">
+			<section class="languages" id="lang">
 				<h2 class="languages__title title">Languages</h2>
 				<ol class="languages__items">
 					<li class="languages__item">Russian (native speaker)</li>

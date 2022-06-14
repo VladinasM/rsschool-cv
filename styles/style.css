@@ -1,21 +1,9 @@
 body {
 	box-sizing: border-box;
-  font-size: 24px;
-  font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	background-color: #f5f7fa;
-}
-
-.fab {
-	font-weight: 400;
-	font-family: "Font Awesome 6 Brands";
-}
-
-.skills__item i {
-	font-size: 28px;
-	color: #0c2461;
-	width: 35px;
-	margin-left: 5px;
 }
 
 .container {
@@ -33,6 +21,30 @@ body {
 	background-repeat: no-repeat;
 	background-position: top center;
 	min-height: 300px;
+}
+
+.nav__items {
+	display: flex;
+	list-style: none;
+	font-size: 18px;
+	justify-content: end;
+}
+
+.nav__items:last-child {
+	margin-right: 30px;
+}
+
+.nav__item {
+	margin-left: 10px;
+}
+
+.nav__link {
+	color: inherit;
+	text-decoration: none;
+}
+
+.nav__link:hover {
+	text-decoration: underline;
 }
 
 .my-photo {
@@ -67,27 +79,34 @@ body {
 	justify-items: center;
 	margin-bottom: 60px;
 }
+
 .title {
 	text-align: center;
 }
+
 .summary__title {
 	grid-column-start: 1;
 	grid-column-end: 3;
 }
+
 .summary__info {
 	max-width: 440px;
 }
+
 .contacts {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
+
 .contacts__bold-text {
 	font-weight: 700;
 }
+
 .contact {
 	margin-bottom: 10px;
 }
+
 .dividing-line {
 	border-bottom: solid 3px #4169E1;
 	margin-bottom: 60px;
