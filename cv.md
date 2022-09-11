@@ -13,7 +13,7 @@ I am 20 years old, second-year student in software engineering. I have experienc
 in university like Python, Java, C++ but finally i chose frontend and javascript. My goal is to become frontend developer
 this year.
 ## **Skils**
-* HTML&CSS(SASS/SCSS, BEM)
+* HTML,CSS(SASS/SCSS, BEM)
 * Javascript(Fundamentals, ES6+)
 * OOP
 * Git/GitHub
